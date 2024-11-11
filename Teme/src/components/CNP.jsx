@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Source = () => {
+const CNP = () => {
   const [results, setResults] = useState([]);
 
   // Function to generate a unique CNP (Romanian Personal Numeric Code)
@@ -131,4 +131,4 @@ const Source = () => {
   );
 };
 
-export default Source;
+export default CNP;
